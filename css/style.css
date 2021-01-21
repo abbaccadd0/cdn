@@ -8222,9 +8222,9 @@ img[src*="#in-center"] {
     display: none;
   }
 }
-#video-add {
-  /*display:none !important*/
-}
+/* #video-add {
+  display:none !important
+} */
 .accordionMenu {
   color: #424242;
   margin: 0 auto;
