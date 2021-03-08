@@ -4871,7 +4871,7 @@ h1.main-title {
 }
 
 .top-feature img {
-  height: 160px;
+  height: 143px;
   width: 257px;
   border-radius: 10px;
 }
@@ -9098,13 +9098,13 @@ a.toc-link {
 }
 
 .the-feature img {
-  height: 160px;
+  height: 143px;
   width: 257px;
 }
 
 .the-feature.from_left_and_right {
   position: relative;
-  height: 160px;
+  height: 143px;
   width: 257px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   overflow: hidden;
