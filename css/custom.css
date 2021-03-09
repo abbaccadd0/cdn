@@ -14,7 +14,7 @@ section {
 
 /*a标签*/
 a:hover {
-  cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/No_Disponible.cur"), auto !important;
+  cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/ayuda.cur"), auto !important;
 }
 
 /*按钮*/
@@ -28,6 +28,12 @@ i:hover {
   cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/normal.cur"), auto !important;
 }
 
+/*p标签与代码块*/
+p,
+table {
+  cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/texto.cur"), auto;
+}
+
 /*up酱*/
 #go-up:hover {
   cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/work.cur"), auto !important;
@@ -36,7 +42,7 @@ i:hover {
 /*页脚a标签*/
 #footer-wrap a:hover {
   text-decoration: none;
-  cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/No_Disponible.cur"), auto !important;
+  cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/ayuda.cur"), auto !important;
 }
 
 pre code {
