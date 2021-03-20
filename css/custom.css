@@ -31,7 +31,7 @@ i:hover {
 /*p标签与代码块*/
 p,
 table {
-  cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/texto.cur"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/texto.cur"), auto !important;
 }
 
 /*up酱*/
@@ -65,11 +65,23 @@ svg {
 #nav .site-page:hover {
   cursor: url("https://cdn.jsdelivr.net/gh/abbaccadd0/cdn@master/img/cursor/texto.cur"), auto;
 }
-/*鼠标光标修改结束*/
 
-/*修改背景*/
 /*修改背景为渐变色*/
-#web_bg {
-  background: linear-gradient(to right, red, blue);
+/* #web_bg {
+  background: linear-gradient(
+    90deg,
+    rgba(247, 149, 51, 0.1) 0,
+    rgba(243, 112, 85, 0.1) 15%,
+    rgba(239, 78, 123, 0.1) 30%,
+    rgba(161, 102, 171, 0.1) 44%,
+    rgba(80, 115, 184, 0.1) 58%,
+    rgba(16, 152, 173, 0.1) 72%,
+    rgba(7, 179, 155, 0.1) 86%,
+    rgba(109, 186, 130, 0.1) 100%
+  );
+} */
+
+/* 页脚footer颜色 */
+#footer:before {
+  background-color: rgba(0, 0, 0, 0);
 }
-/*背景修改结束*/
